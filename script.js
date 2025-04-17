@@ -27,10 +27,92 @@
 // const value = "24.5px";
 // numerical = Number.parseFloat(value);
 
-function fibonacci(index) {
-    if (index <= 0) return 0;
-    if (index === 1) return 1;
-    return fibonacci(index - 1) + fibonacci(index - 2);
-}
+// function fibonacci(index) {
+//     if (index <= 0) return 0;
+//     if (index === 1) return 1;
+//     return fibonacci(index - 1) + fibonacci(index - 2);
+// }
 
-console.log(fibonacci(0)); // 0
+// console.log(fibonacci(0)); // 0
+
+// const book = {
+//   title: "The Last Kingdom",
+//   author: "Bernard Cornwell",
+//   genres: ["historical prose", "adventure"],
+//   rating: 8.38,
+// };
+
+// for (const key in book) {
+//   console.log(key); // Ключ
+//   console.log(book[key]);  // Значення властивості з таким ключем
+// }
+
+// const book = {
+//   author: "Bernard Cornwell",
+//   genres: ["historical prose", "adventure"],
+//   rating: 8.38,
+// };
+// const keys = Object.keys(book);
+
+// for (const key of keys) {
+//   console.log(key); // Ключ
+//   console.log(book[key]); // Значення властивості
+// }
+
+// const books = [
+//   {
+//     title: "The Last Kingdom",
+//     author: "Bernard Cornwell",
+//     rating: 8.38,
+//   },
+//   {
+//     title: "Beside Still Waters",
+//     author: "Robert Sheckley",
+//     rating: 8.51,
+//   },
+//   {
+//     title: "The Dream of a Ridiculous Man",
+//     author: "Fyodor Dostoevsky",
+//     rating: 7.75,
+//   }
+// ];
+
+// for (const book of books) {
+//   console.log(book); // Об'єкт книги
+//   console.log(book.title); // Назва
+//   console.log(book.author); // Автор
+//   console.log(book.rating); // Рейтинг
+// }
+
+
+
+//?==============================================================================
+
+// const profile = {
+//     username: "Jacob",
+//   playTime: 300,
+
+
+// changeUsername(newName) {
+//     this.username = newName;
+// },
+  
+// updatePlayTime(hours) {
+//     this.playTime += hours;
+// },
+  
+// getInfo() {
+//     return `${this.username} has ${this.playTime} active hours!`;
+//   }
+// };
+
+// console.log(profile.getInfo()); // "Jacob has 300 active hours!"
+
+// profile.changeUsername("Marco");
+// console.log(profile.getInfo()); // "Marco has 300 active hours!"
+
+// profile.updatePlayTime(20);
+// console.log(profile.getInfo()); // "Marco has 320 active hours!"
+
+//?==============================================================================
+
