@@ -116,3 +116,64 @@
 
 //?==============================================================================
 
+// function multiply(x, y, z) {
+//   console.log("Result: " + x * y * z);
+// }
+
+// // console.log("Log before multiply execution");
+// multiply(2, 3, 5); // "Result: 30"
+// // console.log("Log after multiply execution");
+
+// const fruit = 'apple';
+
+// switch (fruit) {
+//   case 'apple':
+//     console.log('Apple selected');
+//     break;
+//   case 'banana':
+//     console.log('Banana selected');
+//     break;
+//   case 'orange':
+//     console.log('Orange selected');
+//     break;
+//   default:
+//     console.log('The fruit is unknown');
+// }
+
+// let count = 0;
+
+// while (count < 10) {
+//   console.log(`Count: ${count}`);
+//   count += 1;
+// }
+
+// let count = 0;
+
+// do {
+// 	console.log(`Count: ${count}`);
+// 	count += 1;
+// } while (count < 5);
+
+// for (let i = 0; i <= 20; i += 5) {
+//   console.log(i);
+// }
+
+// let x = 5;
+// const y = x--;
+// console.log(x); // 4
+// console.log(y); // 5
+
+// let taras = 5;
+// taras++;
+// console.log(taras);
+
+// const my = ['fargo', 'taras'];
+// my[2] = 'Alex';
+// console.log(my);
+// console.log(my[2]);
+
+// function greeting(username = "Guest") {
+//     console.log(`Helo, ${username}!`);
+// }
+// greeting("Jacob");
+// greeting("");
