@@ -177,3 +177,105 @@
 // }
 // greeting("Jacob");
 // greeting("");
+
+// const book = {
+//   title: "The Last Kingdom",
+//   author: "Bernard Cornwell",
+//   genres: ["historical prose", "adventure"],
+//   rating: 8.38,
+// };
+
+// for (const my in book) {
+//   console.log(my); // Ключ
+//   console.log(book[my]);  // Значення властивості з таким ключем
+// }
+
+// const book = {
+//   title: "The Last Kingdom",
+//   author: "Bernard Cornwell",
+//   genres: ["historical prose", "adventure"],
+//   rating: 8.38,
+// };
+// const keys = Object.keys(book);
+// console.log(keys); // ['title', 'author', 'genres', 'rating']
+
+// const books = [
+//   {
+//     title: "The Last Kingdom",
+//     author: "Bernard Cornwell",
+//     rating: 8.38,
+//   },
+//   {
+//     title: "Beside Still Waters",
+//     author: "Robert Sheckley",
+//     rating: 8.51,
+//   },
+//   {
+//     title: "The Dream of a Ridiculous Man",
+//     author: "Fyodor Dostoevsky",
+//     rating: 7.75,
+//   }
+// ];
+
+// for (const book of books) {
+//   console.log(book); // Об'єкт книги
+//   console.log(book.title); // Назва
+//   console.log(book.author); // Автор
+//   console.log(book.rating); // Рейтинг
+// }
+
+// const books = [
+//   { title: "The Last Kingdom", author: "Bernard Cornwell" },
+//   { title: "Beside Still Waters", author: "Robert Sheckley" },
+//   { title: "The Dream of a Ridiculous Man", author: "Fyodor Dostoevsky" }
+// ];
+
+// const authorToSearchFor = "Robert Sheckley";
+
+// for (const book of books) {
+// 	if(book.author === authorToSearchFor) {
+// 		// console.log(book);
+// 		console.log(book.title)
+// 		// console.log(book.rating)
+// 	}
+// }
+
+// const books = [
+//   { title: "The Last Kingdom", author: "Bernard Cornwell", rating: 8.2 },
+//   { title: "Beside Still Waters", author: "Robert Sheckley", rating: 9 },
+//   { title: "The Dream of a Ridiculous Man", author: "Fyodor Dostoevsky", rating: 6.8 }
+// ];
+
+// const titles = [];
+
+// for (const book of books) {
+// 	titles.push(book.title)
+// }
+
+// console.log(titles); // ["The Last Kingdom", "Beside Still Waters", "The Dream of a Ridiculous Man"]
+
+// debugger;
+
+// const books = [
+//   { title: "The Last Kingdom", author: "Bernard Cornwell", rating: 8.2 },
+//   { title: "Beside Still Waters", author: "Robert Sheckley", rating: 9 },
+//   { title: "The Dream of a Ridiculous Man", author: "Fyodor Dostoevsky", rating: 6.8 }
+// ];
+
+// let totalRating = 0;
+
+// for (const book of books) {
+   
+//   totalRating += book.rating;
+// }
+
+// const averageRating = totalRating / books.length;
+// console.log(averageRating); // 8
+
+
+// const my = {
+//   name: "Taras",
+
+// }
+
+
